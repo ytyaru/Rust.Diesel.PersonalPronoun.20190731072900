@@ -1,0 +1,17 @@
+[package]
+name = "personal_pronoun"
+version = "0.1.0"
+authors = ["ytyaru <ytyaru@outlook.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.4.2", features = ["sqlite", "chrono"] }
+dotenv = "0.14.1"
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1.0.97", features = ["derive"] }
+serde_json = "1.0.40"
+json5 = "0.2.5"
+rand = "0"
+
